@@ -5,3 +5,4 @@ venv/
 *.pyc
 *.db
 .vscode/
+config/credentials.json

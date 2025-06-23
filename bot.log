@@ -265,3 +265,176 @@ AttributeError: 'NoneType' object has no attribute 'text'
 2025-06-15 16:26:30,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
 2025-06-15 16:26:30,002 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
 2025-06-15 16:26:30,002 - telegram.ext.Application - INFO - Application.stop() complete
+2025-06-23 18:28:42,718 - bot.categories - INFO - Загружено пользовательских профилей: 5
+2025-06-23 18:28:42,778 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-23 18:28:42,796 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-23 18:28:42,844 - __main__ - INFO - Бот запущен и ожидает сообщения...
+2025-06-23 18:28:43,084 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getMe "HTTP/1.1 200 OK"
+2025-06-23 18:28:43,130 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-23 18:28:43,131 - telegram.ext.Application - INFO - Application started
+2025-06-23 18:28:53,296 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:29:03,421 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:29:12,267 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:29:12,268 - __main__ - INFO - Новое сообщение от @marina_tikh: 800 азбука вкуса
+2025-06-23 18:29:12,269 - __main__ - INFO - Результат парсинга: amount=None, category=None, error_message=Не удалось распознать сообщение. Введите сумму и комментарий, например: 200 кофе.
+2025-06-23 18:29:12,269 - __main__ - WARNING - Ошибка парсинга: Не удалось распознать сообщение. Введите сумму и комментарий, например: 200 кофе.
+2025-06-23 18:29:12,496 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-23 18:29:22,324 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:29:32,404 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:29:42,462 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:29:52,515 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:30:02,568 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:30:12,625 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:30:22,702 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:30:31,316 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:30:31,319 - __main__ - INFO - Новое сообщение от @marina_tikh: 700,90 вкусвилл
+2025-06-23 18:30:31,319 - __main__ - INFO - Результат парсинга: amount=None, category=None, error_message=Не удалось распознать сообщение. Введите сумму и комментарий, например: 200 кофе.
+2025-06-23 18:30:31,319 - __main__ - WARNING - Ошибка парсинга: Не удалось распознать сообщение. Введите сумму и комментарий, например: 200 кофе.
+2025-06-23 18:30:31,573 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-23 18:30:41,397 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:30:51,479 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:31:01,532 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:31:11,696 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:31:21,754 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:31:31,817 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:31:41,872 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:31:51,929 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:32:01,987 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:32:12,147 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:32:22,201 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:32:32,309 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:32:42,360 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:32:52,475 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:33:02,529 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:33:12,586 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:33:22,644 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:33:32,702 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:33:42,764 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:33:52,819 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:34:02,924 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:34:12,979 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:34:23,033 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:34:33,090 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:34:43,147 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:34:53,202 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:34:57,091 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:34:57,092 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-06-23 18:34:57,092 - telegram.ext.Application - INFO - Application.stop() complete
+2025-06-23 18:38:42,615 - bot.categories - INFO - Загружено пользовательских профилей: 5
+2025-06-23 18:38:42,710 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-23 18:38:42,728 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-23 18:38:58,350 - bot.categories - INFO - Загружено пользовательских профилей: 5
+2025-06-23 18:38:58,391 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-23 18:38:58,409 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-23 18:39:17,355 - bot.categories - INFO - Загружено пользовательских профилей: 5
+2025-06-23 18:39:17,398 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-23 18:39:17,417 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-23 18:39:53,645 - bot.categories - INFO - Загружено пользовательских профилей: 5
+2025-06-23 18:39:53,732 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-23 18:39:53,752 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-23 18:39:53,755 - bot.categories - WARNING - Пользовательский словарь категорий пуст для пользователя test_user
+2025-06-23 18:40:02,330 - bot.categories - INFO - Загружено пользовательских профилей: 5
+2025-06-23 18:40:02,375 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-23 18:40:02,391 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-23 18:40:02,393 - bot.categories - WARNING - Пользовательский словарь категорий пуст для пользователя test_user
+2025-06-23 18:40:21,262 - bot.categories - INFO - Загружено пользовательских профилей: 5
+2025-06-23 18:40:21,310 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-23 18:40:21,329 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-23 18:40:21,332 - bot.categories - WARNING - Пользовательский словарь категорий пуст для пользователя test_user
+2025-06-23 18:40:21,332 - bot.categories - WARNING - Пользовательский словарь категорий пуст для пользователя test_user
+2025-06-23 18:40:21,334 - bot.categories - WARNING - Пользовательский словарь категорий пуст для пользователя test_user
+2025-06-23 18:40:45,804 - bot.categories - INFO - Загружено пользовательских профилей: 5
+2025-06-23 18:40:45,831 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-23 18:40:45,852 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-23 18:40:45,905 - __main__ - INFO - Бот запущен и ожидает сообщения...
+2025-06-23 18:40:46,138 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getMe "HTTP/1.1 200 OK"
+2025-06-23 18:40:46,202 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-23 18:40:46,205 - telegram.ext.Application - INFO - Application started
+2025-06-23 18:40:51,874 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:40:51,878 - __main__ - INFO - Новое сообщение от @marina_tikh: 800 азбука вкуса
+2025-06-23 18:40:51,880 - bot.categories - WARNING - Пользовательский словарь категорий пуст для пользователя marina_tikh
+2025-06-23 18:40:51,881 - bot.handlers - INFO - Category not found for comment: азбука вкуса, amount: 800
+2025-06-23 18:40:51,881 - __main__ - INFO - Результат парсинга: amount=800, category=None, error_message=азбука вкуса
+2025-06-23 18:40:51,881 - __main__ - ERROR - Ошибка при обработке сообщения: get_combined_category_map() missing 1 required positional argument: 'username'
+Traceback (most recent call last):
+  File "/Users/marinatikh/Documents/pet-projects/ai-finance-bot/bot/main.py", line 92, in handle_message
+    categories = sorted(set(get_combined_category_map().values()))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_combined_category_map() missing 1 required positional argument: 'username'
+2025-06-23 18:40:52,064 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-23 18:41:00,222 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:41:00,224 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-06-23 18:41:00,225 - telegram.ext.Application - INFO - Application.stop() complete
+2025-06-23 18:41:41,761 - bot.categories - INFO - Загружено пользовательских профилей: 5
+2025-06-23 18:41:41,790 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-23 18:41:41,812 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-23 18:41:46,591 - bot.categories - INFO - Загружено пользовательских профилей: 5
+2025-06-23 18:41:46,627 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-23 18:41:46,640 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-23 18:41:46,642 - bot.categories - WARNING - Пользовательский словарь категорий пуст для пользователя marina_tikh
+2025-06-23 18:41:46,643 - bot.handlers - INFO - Category not found for comment: азбука вкуса, amount: 800
+2025-06-23 18:42:47,209 - bot.categories - INFO - Загружено пользовательских профилей: 5
+2025-06-23 18:42:47,250 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-23 18:42:47,268 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-23 18:42:47,273 - bot.categories - WARNING - Пользовательский словарь категорий пуст для пользователя marina_tikh
+2025-06-23 18:42:47,274 - bot.handlers - INFO - Category not found for comment: вкусвилл, amount: 700.90
+2025-06-23 18:43:16,059 - bot.categories - INFO - Загружено пользовательских профилей: 5
+2025-06-23 18:43:16,088 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-23 18:43:16,106 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-23 18:43:16,148 - __main__ - INFO - Бот запущен и ожидает сообщения...
+2025-06-23 18:43:16,361 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getMe "HTTP/1.1 200 OK"
+2025-06-23 18:43:16,412 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-23 18:43:16,415 - telegram.ext.Application - INFO - Application started
+2025-06-23 18:43:22,248 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:43:22,250 - __main__ - INFO - Новое сообщение от @marina_tikh: 800 азбука вкуса
+2025-06-23 18:43:22,251 - bot.categories - WARNING - Пользовательский словарь категорий пуст для пользователя marina_tikh
+2025-06-23 18:43:22,251 - bot.handlers - INFO - Category not found for comment: азбука вкуса, amount: 800
+2025-06-23 18:43:22,251 - __main__ - INFO - Результат парсинга: amount=800, category=None, error_message=азбука вкуса
+2025-06-23 18:43:22,252 - bot.categories - WARNING - Пользовательский словарь категорий пуст для пользователя marina_tikh
+2025-06-23 18:43:22,252 - __main__ - INFO - Категория не определена. Доступные категории: ['Бытовые расходы', 'Еда вне дома', 'Заказ услуг', 'Здоровье', 'Инвестиции и накопления', 'Ипотека', 'КУ', 'Красота и уход', 'Кредитные выплаты и долги', 'Маневренный фонд', 'Образование', 'Одежда и обувь', 'Подарки и благотворительность', 'Подписки и ПО', 'Подушка', 'Продолбалась', 'Продукты', 'Путешествия', 'Развлечения и досуг', 'Связь', 'Страховки', 'Техника, мебель', 'Транспорт', 'Транспорт (такси, билеты)', 'Тренировки']
+2025-06-23 18:43:22,471 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-23 18:43:32,373 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:43:32,870 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:43:33,074 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-23 18:43:33,076 - __main__ - INFO - Выбор категории пользователем @marina_tikh: Продукты
+2025-06-23 18:43:33,076 - bot.categories - INFO - Директория config создана или уже существует
+2025-06-23 18:43:33,079 - bot.categories - INFO - Добавлено новое соответствие: 'азбука вкуса' -> 'Продукты' для пользователя 'marina_tikh'
+2025-06-23 18:43:33,081 - bot.handlers - INFO - Saved expense: 800 Продукты for marina_tikh
+2025-06-23 18:43:36,365 - bot.handlers - INFO - Also saved to Google Sheets: 800 Продукты for marina_tikh
+2025-06-23 18:43:36,365 - __main__ - INFO - Сохранён расход: 800 Продукты азбука вкуса @marina_tikh
+2025-06-23 18:43:36,536 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/editMessageText "HTTP/1.1 200 OK"
+2025-06-23 18:43:42,920 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:43:43,309 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:43:43,312 - __main__ - INFO - Новое сообщение от @marina_tikh: 700,90вкусвилл
+2025-06-23 18:43:43,315 - bot.handlers - INFO - Category not found for comment: вкусвилл, amount: 700.90
+2025-06-23 18:43:43,315 - __main__ - INFO - Результат парсинга: amount=700.90, category=None, error_message=вкусвилл
+2025-06-23 18:43:43,315 - __main__ - INFO - Категория не определена. Доступные категории: ['Бытовые расходы', 'Еда вне дома', 'Заказ услуг', 'Здоровье', 'Инвестиции и накопления', 'Ипотека', 'КУ', 'Красота и уход', 'Кредитные выплаты и долги', 'Маневренный фонд', 'Образование', 'Одежда и обувь', 'Подарки и благотворительность', 'Подписки и ПО', 'Подушка', 'Продолбалась', 'Продукты', 'Путешествия', 'Развлечения и досуг', 'Связь', 'Страховки', 'Техника, мебель', 'Транспорт', 'Транспорт (такси, билеты)', 'Тренировки']
+2025-06-23 18:43:43,581 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-23 18:43:47,183 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:43:47,246 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-23 18:43:47,247 - __main__ - INFO - Выбор категории пользователем @marina_tikh: Продукты
+2025-06-23 18:43:47,247 - bot.categories - INFO - Директория config создана или уже существует
+2025-06-23 18:43:47,249 - bot.categories - INFO - Добавлено новое соответствие: 'вкусвилл' -> 'Продукты' для пользователя 'marina_tikh'
+2025-06-23 18:43:47,249 - bot.handlers - INFO - Saved expense: 700.90 Продукты for marina_tikh
+2025-06-23 18:43:50,004 - bot.handlers - INFO - Also saved to Google Sheets: 700.90 Продукты for marina_tikh
+2025-06-23 18:43:50,005 - __main__ - INFO - Сохранён расход: 700.90 Продукты вкусвилл @marina_tikh
+2025-06-23 18:43:50,141 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/editMessageText "HTTP/1.1 200 OK"
+2025-06-23 18:43:57,254 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:44:03,371 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:44:03,373 - __main__ - INFO - Новое сообщение от @marina_tikh: 700Вкусвилл
+2025-06-23 18:44:03,373 - bot.handlers - INFO - Saved expense: 700 Продукты for marina_tikh
+2025-06-23 18:44:05,962 - bot.handlers - INFO - Also saved to Google Sheets: 700 Продукты for marina_tikh
+2025-06-23 18:44:05,962 - bot.handlers - INFO - Successfully processed expense: 700 Продукты for marina_tikh
+2025-06-23 18:44:05,962 - __main__ - INFO - Результат парсинга: amount=700, category=Продукты, error_message=None
+2025-06-23 18:44:05,962 - __main__ - INFO - Категория определена автоматически: Продукты
+2025-06-23 18:44:06,251 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-23 18:44:16,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:44:26,146 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:44:33,129 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:44:33,131 - __main__ - INFO - Новое сообщение от @marina_tikh: че каво
+2025-06-23 18:44:33,132 - __main__ - INFO - Результат парсинга: amount=None, category=None, error_message=Не удалось распознать сообщение. Введите сумму и комментарий, например: 200 кофе.
+2025-06-23 18:44:33,132 - __main__ - WARNING - Ошибка парсинга: Не удалось распознать сообщение. Введите сумму и комментарий, например: 200 кофе.
+2025-06-23 18:44:33,363 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-23 18:44:36,315 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-23 18:44:36,316 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-06-23 18:44:36,316 - telegram.ext.Application - INFO - Application.stop() complete

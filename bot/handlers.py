@@ -1,5 +1,6 @@
 import csv
 import logging
+from .spreadsheet import save_to_google_sheets
 from datetime import datetime
 from decimal import Decimal
 from pathlib import Path
@@ -82,6 +83,13 @@ def save_expense(amount: Decimal, category: str, comment: str, username: str) ->
             writer = csv.writer(f)
             writer.writerow([datetime.now(), amount, category, comment, username])
         logger.info(f"Saved expense: {amount} {category} for {username}")
+
+        # Пробуем дублировать в Google Таблицу
+        try:
+            save_to_google_sheets(amount, category, comment, username)
+            logger.info(f"Also saved to Google Sheets: {amount} {category} for {username}")
+        except Exception as e:
+            logger.warning(f"Could not save to Google Sheets: {e}")
     except OSError as e:
         logger.error(f"Failed to save expense: {e}")
         raise
@@ -107,7 +115,7 @@ def process_message(text: str, username: str) -> ProcessResult:
         if not username or not isinstance(username, str):
             return ProcessResult(None, None, "Имя пользователя не может быть пустым")
             
-        amount, comment, category = parse_message(text)
+        amount, comment, category = parse_message(text, username)
         if not amount or not comment:
             return ProcessResult(None, None, "Не удалось распознать сообщение. Введите сумму и комментарий, например: 200 кофе.")
 

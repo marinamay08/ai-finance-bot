@@ -53,12 +53,18 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(HELP_MESSAGE)
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    # Проверяем, что update.message существует
+    if not update.message:
+        logger.warning("Получен update без message")
+        return
+        
     username = update.effective_user.username if update.effective_user else 'unknown'
-    if update.message and update.message.text:
+    if update.message.text:
         logger.info(f"Новое сообщение от @{username}: {update.message.text}")
     else:
-        logger.info(f"Новое сообщение от @{username}, но текст отсутствует (update.message is None)")
+        logger.info(f"Новое сообщение от @{username}, но текст отсутствует (update.message.text is None)")
         return
+        
     if not update.effective_user or not update.effective_user.username:
         logger.warning("Пользователь без username попытался отправить сообщение")
         await update.message.reply_text("Для работы с ботом необходимо указать username в настройках Telegram.")
@@ -83,7 +89,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         # Если сумма и комментарий есть, но категория не определена — предлагаем выбрать категорию
         elif result.amount is not None and result.error_message:
             user_inputs[username] = (result.amount, result.error_message)  # error_message содержит comment
-            categories = sorted(set(get_combined_category_map().values()))
+            categories = sorted(set(get_combined_category_map(username).values()))
             logger.info(f"Категория не определена. Доступные категории: {categories}")
             if not categories:
                 logger.error("Список категорий пуст! Клавиатура не будет отправлена.")
@@ -118,7 +124,7 @@ async def handle_category_choice(update: Update, context: ContextTypes.DEFAULT_T
 
     try:
         amount, comment = user_inputs.pop(username)
-        add_category_mapping(comment, query.data)
+        add_category_mapping(comment, query.data, username)
         save_expense(amount, query.data, comment, username)
         logger.info(f"Сохранён расход: {amount} {query.data} {comment} @{username}")
         await query.edit_message_text(f"Записано: {amount} ₽ на категорию «{query.data}»")

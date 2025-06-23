@@ -6,16 +6,18 @@ from .categories import get_combined_category_map
 
 morph = MorphAnalyzer()
 
-def parse_message(text: str) -> Tuple[Optional[Decimal], Optional[str], Optional[str]]:
+def parse_message(text: str, username: str) -> Tuple[Optional[Decimal], Optional[str], Optional[str]]:
     """
     Парсит сообщение и возвращает сумму, комментарий и категорию.
     
     Args:
         text: Текст сообщения в формате "сумма комментарий"
+        username: Имя пользователя
         Примеры:
         - "200 кофе"
         - "200.50 кофе"
         - "200,50 кофе"
+        - "200кофе" (без пробела)
         
     Returns:
         Tuple[Optional[Decimal], Optional[str], Optional[str]]: (сумма, комментарий, категория)
@@ -25,7 +27,8 @@ def parse_message(text: str) -> Tuple[Optional[Decimal], Optional[str], Optional
     text = ' '.join(text.strip().lower().split())
     
     # Поддерживаем разные форматы чисел: целые и десятичные (через точку или запятую)
-    match = re.match(r"(\d+(?:[.,]\d+)?)[\s]+(.+)", text)
+    # Также поддерживаем формат без пробела между суммой и комментарием
+    match = re.match(r"(\d+(?:[.,]\d+)?)[\s]*(.+)", text)
     if not match:
         return None, None, None
         
@@ -44,24 +47,25 @@ def parse_message(text: str) -> Tuple[Optional[Decimal], Optional[str], Optional
         if len(comment) > 100:  # Максимальная длина комментария
             return None, None, None
             
-        category = match_category(comment)
+        category = match_category(comment, username)
         return amount, comment, category
         
     except (ValueError, TypeError, ArithmeticError):
         return None, None, None
 
-def match_category(comment: str) -> Optional[str]:
+def match_category(comment: str, username: str) -> Optional[str]:
     """
     Находит категорию для комментария.
     Сначала ищет полное совпадение, затем каждое слово в нормальной форме.
     
     Args:
         comment: Комментарий к расходу
+        username: Имя пользователя
         
     Returns:
         Optional[str]: Найденная категория или None
     """
-    category_map = get_combined_category_map()
+    category_map = get_combined_category_map(username)
     
     # Проверяем полное совпадение комментария
     if comment in category_map:
