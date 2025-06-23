@@ -1,0 +1,267 @@
+2025-06-15 16:02:04,313 - bot.categories - INFO - Загружено 1 пользовательских соответствий категорий
+2025-06-15 16:02:04,347 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-15 16:02:04,374 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-15 16:02:04,785 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getMe "HTTP/1.1 200 OK"
+2025-06-15 16:02:04,857 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-15 16:02:04,858 - telegram.ext.Application - INFO - Application started
+2025-06-15 16:02:05,069 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:02:05,073 - bot.handlers - INFO - Saved expense: 200 Кафе for marina_tikh
+2025-06-15 16:02:05,074 - bot.handlers - INFO - Successfully processed expense: 200 Кафе for marina_tikh
+2025-06-15 16:02:05,210 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:02:15,173 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:02:20,511 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:02:20,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:02:23,167 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:02:23,309 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:02:33,234 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:02:43,300 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:02:49,358 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:02:49,364 - bot.handlers - INFO - Category not found for comment: картошка, капуста, amount: 1500
+2025-06-15 16:02:49,718 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:02:59,424 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:03:08,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:03:08,686 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:03:18,443 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:03:20,110 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:03:20,113 - bot.handlers - INFO - Category not found for comment: картошка капуста, amount: 1000
+2025-06-15 16:03:20,360 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:08:59,612 - bot.categories - INFO - Загружено 1 пользовательских соответствий категорий
+2025-06-15 16:08:59,673 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-15 16:08:59,699 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-15 16:08:59,741 - __main__ - INFO - Бот запущен и ожидает сообщения...
+2025-06-15 16:08:59,966 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getMe "HTTP/1.1 200 OK"
+2025-06-15 16:09:00,019 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-15 16:09:00,021 - telegram.ext.Application - INFO - Application started
+2025-06-15 16:09:00,235 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:09:00,237 - __main__ - INFO - /help от пользователя: marina_tikh
+2025-06-15 16:09:00,371 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:09:10,333 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:09:13,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:09:13,736 - __main__ - INFO - Новое сообщение от @marina_tikh: как дела?
+2025-06-15 16:09:13,736 - __main__ - INFO - Результат парсинга: amount=None, category=None, error_message=Не удалось распознать сообщение. Введите сумму и комментарий, например: 200 кофе.
+2025-06-15 16:09:13,736 - __main__ - WARNING - Ошибка парсинга: Не удалось распознать сообщение. Введите сумму и комментарий, например: 200 кофе.
+2025-06-15 16:09:14,005 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:09:16,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:09:16,383 - __main__ - INFO - Новое сообщение от @marina_tikh: 1000 картошка капуста
+2025-06-15 16:09:16,385 - bot.handlers - INFO - Category not found for comment: картошка капуста, amount: 1000
+2025-06-15 16:09:16,385 - __main__ - INFO - Результат парсинга: amount=1000, category=None, error_message=картошка капуста
+2025-06-15 16:09:16,385 - __main__ - WARNING - Ошибка парсинга: картошка капуста
+2025-06-15 16:09:16,462 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:09:25,207 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:09:25,221 - __main__ - INFO - Новое сообщение от @marina_tikh: 1000 картошка, капуста
+2025-06-15 16:09:25,225 - bot.handlers - INFO - Category not found for comment: картошка, капуста, amount: 1000
+2025-06-15 16:09:25,225 - __main__ - INFO - Результат парсинга: amount=1000, category=None, error_message=картошка, капуста
+2025-06-15 16:09:25,225 - __main__ - WARNING - Ошибка парсинга: картошка, капуста
+2025-06-15 16:09:25,475 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:09:28,706 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:09:28,709 - __main__ - INFO - Новое сообщение от @marina_tikh: 1000 картошка
+2025-06-15 16:09:28,709 - bot.handlers - INFO - Category not found for comment: картошка, amount: 1000
+2025-06-15 16:09:28,709 - __main__ - INFO - Результат парсинга: amount=1000, category=None, error_message=картошка
+2025-06-15 16:09:28,709 - __main__ - WARNING - Ошибка парсинга: картошка
+2025-06-15 16:09:28,793 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:12:30,050 - bot.categories - INFO - Загружено 1 пользовательских соответствий категорий
+2025-06-15 16:12:30,076 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-15 16:12:30,100 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-15 16:12:30,138 - __main__ - INFO - Бот запущен и ожидает сообщения...
+2025-06-15 16:12:30,334 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getMe "HTTP/1.1 200 OK"
+2025-06-15 16:12:30,388 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-15 16:12:30,389 - telegram.ext.Application - INFO - Application started
+2025-06-15 16:12:30,575 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:12:30,577 - __main__ - INFO - /help от пользователя: marina_tikh
+2025-06-15 16:12:30,745 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:12:40,638 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:12:43,698 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:12:43,700 - __main__ - INFO - Новое сообщение от @marina_tikh: 1000 картошка, капуста
+2025-06-15 16:12:43,703 - bot.handlers - INFO - Category not found for comment: картошка, капуста, amount: 1000
+2025-06-15 16:12:43,703 - __main__ - INFO - Результат парсинга: amount=1000, category=None, error_message=картошка, капуста
+2025-06-15 16:12:43,703 - __main__ - INFO - Категория не определена. Доступные категории: ['Кафе', 'Подписки', 'Продукты']
+2025-06-15 16:12:43,968 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:12:47,016 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:12:47,218 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-15 16:12:47,219 - __main__ - INFO - Выбор категории пользователем @marina_tikh: Продукты
+2025-06-15 16:12:47,220 - bot.categories - INFO - Директория config создана или уже существует
+2025-06-15 16:12:47,221 - bot.categories - INFO - Добавлено новое соответствие: 'картошка, капуста' -> 'Продукты'
+2025-06-15 16:12:47,222 - bot.handlers - INFO - Saved expense: 1000 Продукты for marina_tikh
+2025-06-15 16:12:47,222 - __main__ - INFO - Сохранён расход: 1000 Продукты картошка, капуста @marina_tikh
+2025-06-15 16:12:47,347 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/editMessageText "HTTP/1.1 200 OK"
+2025-06-15 16:12:57,073 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:13:01,936 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:13:01,940 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/marinatikh/anaconda3/lib/python3.11/site-packages/telegram/ext/_application.py", line 1234, in process_update
+    await coroutine
+  File "/Users/marinatikh/anaconda3/lib/python3.11/site-packages/telegram/ext/_basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/marinatikh/Documents/pet-projects/ai-finance-bot/bot/main.py", line 57, in handle_message
+    logger.info(f"Новое сообщение от @{username}: {update.message.text}")
+                                                   ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-06-15 16:13:12,007 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:13:12,423 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:13:12,425 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/marinatikh/anaconda3/lib/python3.11/site-packages/telegram/ext/_application.py", line 1234, in process_update
+    await coroutine
+  File "/Users/marinatikh/anaconda3/lib/python3.11/site-packages/telegram/ext/_basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/marinatikh/Documents/pet-projects/ai-finance-bot/bot/main.py", line 57, in handle_message
+    logger.info(f"Новое сообщение от @{username}: {update.message.text}")
+                                                   ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-06-15 16:13:22,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:13:32,546 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:13:37,752 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:13:37,754 - __main__ - INFO - Новое сообщение от @marina_tikh: 3000 подписка на гпт
+2025-06-15 16:13:37,755 - bot.handlers - INFO - Saved expense: 3000 Подписки for marina_tikh
+2025-06-15 16:13:37,755 - bot.handlers - INFO - Successfully processed expense: 3000 Подписки for marina_tikh
+2025-06-15 16:13:37,756 - __main__ - INFO - Результат парсинга: amount=3000, category=Подписки, error_message=None
+2025-06-15 16:13:37,756 - __main__ - INFO - Категория определена автоматически: Подписки
+2025-06-15 16:13:37,963 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:13:47,236 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:13:47,239 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/marinatikh/anaconda3/lib/python3.11/site-packages/telegram/ext/_application.py", line 1234, in process_update
+    await coroutine
+  File "/Users/marinatikh/anaconda3/lib/python3.11/site-packages/telegram/ext/_basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/marinatikh/Documents/pet-projects/ai-finance-bot/bot/main.py", line 57, in handle_message
+    logger.info(f"Новое сообщение от @{username}: {update.message.text}")
+                                                   ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-06-15 16:13:57,305 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:14:07,375 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:14:12,463 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:14:12,465 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-06-15 16:14:12,465 - telegram.ext.Application - INFO - Application.stop() complete
+2025-06-15 16:17:37,654 - bot.categories - INFO - Загружено 2 пользовательских соответствий категорий
+2025-06-15 16:17:37,680 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Users/marinatikh/anaconda3/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-15 16:17:37,705 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-15 16:17:37,790 - __main__ - INFO - Бот запущен и ожидает сообщения...
+2025-06-15 16:17:38,008 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getMe "HTTP/1.1 200 OK"
+2025-06-15 16:17:38,069 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-15 16:17:38,072 - telegram.ext.Application - INFO - Application started
+2025-06-15 16:17:48,272 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:17:58,333 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:17:59,797 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:17:59,799 - __main__ - INFO - Новое сообщение от @marina_tikh: 100 картошка
+2025-06-15 16:17:59,801 - bot.handlers - INFO - Category not found for comment: картошка, amount: 100
+2025-06-15 16:17:59,801 - __main__ - INFO - Результат парсинга: amount=100, category=None, error_message=картошка
+2025-06-15 16:17:59,801 - __main__ - INFO - Категория не определена. Доступные категории: ['Кафе', 'Подписки', 'Продукты']
+2025-06-15 16:18:00,043 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:18:01,754 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:18:01,846 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-15 16:18:01,848 - __main__ - INFO - Выбор категории пользователем @marina_tikh: Продукты
+2025-06-15 16:18:01,849 - bot.categories - INFO - Директория config создана или уже существует
+2025-06-15 16:18:01,850 - bot.categories - INFO - Добавлено новое соответствие: 'картошка' -> 'Продукты'
+2025-06-15 16:18:01,851 - bot.handlers - INFO - Saved expense: 100 Продукты for marina_tikh
+2025-06-15 16:18:01,851 - __main__ - INFO - Сохранён расход: 100 Продукты картошка @marina_tikh
+2025-06-15 16:18:01,938 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/editMessageText "HTTP/1.1 200 OK"
+2025-06-15 16:18:10,985 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:18:10,987 - __main__ - INFO - Новое сообщение от @marina_tikh: 200 картошка и капуста
+2025-06-15 16:18:10,988 - bot.handlers - INFO - Saved expense: 200 Продукты for marina_tikh
+2025-06-15 16:18:10,988 - bot.handlers - INFO - Successfully processed expense: 200 Продукты for marina_tikh
+2025-06-15 16:18:10,989 - __main__ - INFO - Результат парсинга: amount=200, category=Продукты, error_message=None
+2025-06-15 16:18:10,989 - __main__ - INFO - Категория определена автоматически: Продукты
+2025-06-15 16:18:11,176 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:18:20,275 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:18:20,278 - __main__ - INFO - Новое сообщение от @marina_tikh: 300 капуста и картошка
+2025-06-15 16:18:20,281 - bot.handlers - INFO - Saved expense: 300 Продукты for marina_tikh
+2025-06-15 16:18:20,281 - bot.handlers - INFO - Successfully processed expense: 300 Продукты for marina_tikh
+2025-06-15 16:18:20,281 - __main__ - INFO - Результат парсинга: amount=300, category=Продукты, error_message=None
+2025-06-15 16:18:20,281 - __main__ - INFO - Категория определена автоматически: Продукты
+2025-06-15 16:18:20,504 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:18:30,349 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:18:37,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:18:37,428 - __main__ - INFO - Новое сообщение от @marina_tikh: 400 подписка на сервис
+2025-06-15 16:18:37,429 - bot.handlers - INFO - Saved expense: 400 Подписки for marina_tikh
+2025-06-15 16:18:37,429 - bot.handlers - INFO - Successfully processed expense: 400 Подписки for marina_tikh
+2025-06-15 16:18:37,429 - __main__ - INFO - Результат парсинга: amount=400, category=Подписки, error_message=None
+2025-06-15 16:18:37,429 - __main__ - INFO - Категория определена автоматически: Подписки
+2025-06-15 16:18:37,735 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:18:47,491 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:18:55,355 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:18:55,357 - __main__ - INFO - Новое сообщение от @marina_tikh: 500,90 вкусвил
+2025-06-15 16:18:55,360 - bot.handlers - INFO - Category not found for comment: вкусвил, amount: 500.90
+2025-06-15 16:18:55,360 - __main__ - INFO - Результат парсинга: amount=500.90, category=None, error_message=вкусвил
+2025-06-15 16:18:55,360 - __main__ - INFO - Категория не определена. Доступные категории: ['Кафе', 'Подписки', 'Продукты']
+2025-06-15 16:18:55,599 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:18:57,161 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:18:57,285 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-15 16:18:57,288 - __main__ - INFO - Выбор категории пользователем @marina_tikh: Продукты
+2025-06-15 16:18:57,288 - bot.categories - INFO - Директория config создана или уже существует
+2025-06-15 16:18:57,289 - bot.categories - INFO - Добавлено новое соответствие: 'вкусвил' -> 'Продукты'
+2025-06-15 16:18:57,289 - bot.handlers - INFO - Saved expense: 500.90 Продукты for marina_tikh
+2025-06-15 16:18:57,290 - __main__ - INFO - Сохранён расход: 500.90 Продукты вкусвил @marina_tikh
+2025-06-15 16:18:57,392 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/editMessageText "HTTP/1.1 200 OK"
+2025-06-15 16:19:07,238 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:19:17,301 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:19:27,464 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:19:37,522 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:19:47,579 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:19:57,643 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:20:07,702 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:20:17,764 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:20:27,825 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:20:37,907 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:20:47,998 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:20:58,069 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:21:08,133 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:21:18,192 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:21:28,271 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:21:38,327 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:21:48,391 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:21:58,453 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:22:08,516 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:22:18,586 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:22:28,652 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:22:38,730 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:22:48,798 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:22:58,866 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:23:09,067 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:23:19,156 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:23:29,224 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:23:39,287 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:23:49,355 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:23:59,422 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:24:09,480 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:24:19,549 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:24:29,606 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:24:39,690 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:24:49,767 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:24:59,831 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:25:09,886 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:25:19,950 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:25:24,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:25:24,505 - __main__ - INFO - Новое сообщение от @marina_tikh: 600,90 вкусвил
+2025-06-15 16:25:24,505 - bot.handlers - INFO - Saved expense: 600.90 Продукты for marina_tikh
+2025-06-15 16:25:24,505 - bot.handlers - INFO - Successfully processed expense: 600.90 Продукты for marina_tikh
+2025-06-15 16:25:24,505 - __main__ - INFO - Результат парсинга: amount=600.90, category=Продукты, error_message=None
+2025-06-15 16:25:24,505 - __main__ - INFO - Категория определена автоматически: Продукты
+2025-06-15 16:25:24,770 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:25:29,559 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:25:29,561 - __main__ - INFO - Новое сообщение от @marina_tikh, но текст отсутствует (update.message is None)
+2025-06-15 16:25:39,628 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:25:41,963 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:25:41,965 - __main__ - INFO - Новое сообщение от @marina_tikh: 700,90 вкусвилл
+2025-06-15 16:25:41,966 - bot.handlers - INFO - Category not found for comment: вкусвилл, amount: 700.90
+2025-06-15 16:25:41,966 - __main__ - INFO - Результат парсинга: amount=700.90, category=None, error_message=вкусвилл
+2025-06-15 16:25:41,966 - __main__ - INFO - Категория не определена. Доступные категории: ['Кафе', 'Подписки', 'Продукты']
+2025-06-15 16:25:42,221 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/sendMessage "HTTP/1.1 200 OK"
+2025-06-15 16:25:46,033 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:25:46,197 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-15 16:25:46,198 - __main__ - INFO - Выбор категории пользователем @marina_tikh: Продукты
+2025-06-15 16:25:46,199 - bot.categories - INFO - Директория config создана или уже существует
+2025-06-15 16:25:46,200 - bot.categories - INFO - Добавлено новое соответствие: 'вкусвилл' -> 'Продукты'
+2025-06-15 16:25:46,200 - bot.handlers - INFO - Saved expense: 700.90 Продукты for marina_tikh
+2025-06-15 16:25:46,200 - __main__ - INFO - Сохранён расход: 700.90 Продукты вкусвилл @marina_tikh
+2025-06-15 16:25:46,337 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/editMessageText "HTTP/1.1 200 OK"
+2025-06-15 16:25:56,099 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:26:06,225 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:26:16,284 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:26:26,340 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:26:30,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot1994927172:AAHTcbkaxIxSc-P_0JtKDtsRUY5NaOKCjHI/getUpdates "HTTP/1.1 200 OK"
+2025-06-15 16:26:30,002 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-06-15 16:26:30,002 - telegram.ext.Application - INFO - Application.stop() complete
